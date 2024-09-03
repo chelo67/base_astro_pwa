@@ -20,7 +20,7 @@ export default defineConfig({
   integrations: [
     AstroPWA({
       mode: 'production',
-      base: 'https://chelo67.github.io/base_astro_pwa',
+      base: 'https://chelo67.github.io/base_astro_pwa/',
       scope: '/base_astro_pwa/',
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
