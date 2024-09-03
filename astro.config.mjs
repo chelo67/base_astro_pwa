@@ -3,7 +3,8 @@ import AstroPWA from '@vite-pwa/astro'
 
 // https://astro.build/config
 export default defineConfig({
-  
+  site: 'https://chelo67.github.io',
+  base: 'base_astro_pwa',
   vite: {
     logLevel: 'info',
     define: {
