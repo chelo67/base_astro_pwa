@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "redeploy": "gh-pages build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "astro": "^4.15.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.4.1",
+    "gh-pages": "^6.1.1"
+  }
+}
